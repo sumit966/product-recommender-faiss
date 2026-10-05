@@ -1,0 +1,5 @@
+﻿# Optional: install these for full embedding-based recommendations
+# If these fail (Python 3.14 issues), the project falls back to TF-IDF
+sentence-transformers>=2.3.0
+faiss-cpu>=1.7.4
+torch>=2.0.0
